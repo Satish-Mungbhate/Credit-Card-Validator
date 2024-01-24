@@ -1,0 +1,125 @@
+ul {
+    float: right;
+    list-style-type: none;
+}
+
+ul li {
+    display: inline-block;
+}
+
+ul li a {
+    text-decoration: underline;
+    color: rgb(255, 255, 255);
+    padding: 5px 20px;
+    border: 1px solid transparent #000;
+    border-radius: 15px;
+    font-size: 20px;
+    transition: 0.1s ease;
+}
+
+ul li a:hover {
+    background-color: rgb(230, 197, 197);
+    color: rgb(0, 0, 0);
+}
+
+ul li.active a {
+    background-color: rgb(230, 197, 197);
+    color: rgb(0, 0, 0);
+}
+
+body {
+    font-family: serif;
+    background-image: url("../new.jpeg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+input:focus {
+    outline: none;
+}
+
+#cc {
+    background-color: transparent;
+    width: 500px;
+    height: 50px;
+    display: block;
+    position: relative;
+    font-size: 2em;
+    color: white;
+    text-align: center;
+    border-radius: 15px;
+    border-width: 5px;
+    border-color: white;
+}
+
+#cc-wrapper {
+    position: relative;
+    width: 600px;
+    height: 60%;
+    top: 50px;
+    margin-top: 30px;
+    align-content: center;
+    background: rgba(0, 0, 0, .5);
+    border: 2px solid black;
+    border-radius: 15px;
+    box-shadow: wheat;
+}
+
+#cc-wrapper:before {
+    position: absolute;
+    top: 250px;
+    right: 500px;
+    font-size: 20px;
+}
+
+#cc-wrapper.Invalid #cc {
+    border-color: red;
+}
+
+#cc-wrapper.Invalid:before {
+    content: '* Invalid';
+    color: red;
+    font-family: serif;
+    font-weight: bold;
+}
+
+#cc-wrapper.Validate #cc {
+    border-color: green;
+}
+
+#cc-wrapper.Validate:before {
+    content: '* Validate';
+    color: greenyellow;
+    font-family: serif;
+    font-weight: bold;
+}
+
+#button {
+    background-color: green;
+    height: 50px;
+    width: 150px;
+    font-size: 25px;
+    font-family: serif;
+    font-weight: bold;
+}
+
+body p {
+    font-size: 3em;
+    color: white;
+    font-family: serif;
+}
+
+marquee {
+    font-family: serif;
+    font-size: 25px;
+    background-color: rgb(255, 41, 41);
+    font-weight: bold;
+}
+
+#message {
+    color: red;
+    font-family: serif;
+    font-size: 15px;
+    font-weight: bold;
+}
