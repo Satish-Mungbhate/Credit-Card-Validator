@@ -29,7 +29,7 @@ ul li.active a {
 
 body {
     font-family: serif;
-    background-image: url("new.jpeg");
+    background-image: url("../new.jpeg");
     height: 100vh;
     background-size: cover;
     background-position: center;
